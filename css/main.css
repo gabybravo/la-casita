@@ -1,0 +1,151 @@
+.pasto {
+	width: 1050px;
+	height: 120px;
+	background: #42CC12;	
+	position: relative;
+	top: 500px;
+}
+
+.pared {
+	width: 350px;
+	height: 180px;
+	background: #E75C10;	
+	position: relative;
+	top: 170px;
+	left: 400px;	
+}
+
+.techo {
+    width: 230px;
+    height: 40px;
+    border-right: 60px solid transparent;
+    border-left: 60px solid transparent;
+    border-bottom: 100px solid #7542CA;
+    position: relative;
+    bottom: 149px;
+    left: 400px;
+}
+
+.chimenea {
+	width: 20px;
+	height: 45px;
+	background: #680C09;	
+    position: absolute;
+    top:70px;
+    left: 190px;		
+}
+
+.humo {
+	width: 20px;
+	height: 20px;
+	background: #929392;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;	
+    position: absolute;
+    left: 200px;
+  	top: 40px;    	
+}
+
+.humo1 {
+	width: 20px;
+	height: 20px;
+	background: #6C6C6C;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;	
+    position: absolute;
+    left: 235px;
+   	top: 20px;     
+}
+
+.humo2 {
+	width: 20px;
+	height: 20px;
+	background: #929392;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;	
+    position: absolute;
+    left: 255px;    
+}
+
+.ventana {
+	width: 80px;
+	height: 80px;
+	background-color: #76E9A4;		
+    position: absolute;
+    top: 20px;
+    left: 210px;	
+}
+
+.puerta {
+	width: 100px;
+	height: 130px;	
+	background-color: #DDC04E;	
+    position: absolute;
+    bottom: 0px;
+    left: 60px;			
+}
+
+.sol {
+	width: 70px;
+	height: 70px;
+	background: #FCFF1E;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	position: relative;
+    left: 50px;
+    bottom: -50px;	
+}
+
+.corazon {
+    position: absolute;
+    width: 80px;
+    height: 70px;
+    top: 15px;
+    left: 18px;
+}
+
+.corazon:before,
+.corazon:after {
+    position: absolute;
+    content: "";
+    left: 30px;
+    top: 0;
+    width: 30px;
+    height: 50px;
+    background: red;
+    -moz-border-radius: 40px 40px 0 0;
+    border-radius: 40px 40px 0 0;
+    -webkit-transform: rotate(-45deg);
+       -moz-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+         -o-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+    -webkit-transform-origin: 0 100%;
+       -moz-transform-origin: 0 100%;
+        -ms-transform-origin: 0 100%;
+         -o-transform-origin: 0 100%;
+            transform-origin: 0 100%;
+}
+
+.corazon:after {
+    left: 0;
+    -webkit-transform: rotate(45deg);
+       -moz-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+         -o-transform: rotate(45deg);
+            transform: rotate(45deg);
+    -webkit-transform-origin: 100% 100%;
+       -moz-transform-origin: 100% 100%;
+        -ms-transform-origin: 100% 100%;
+         -o-transform-origin: 100% 100%;
+            transform-origin :100% 100%;
+}
+
+.casa {
+	position: relative;
+	bottom: 15px;
+}
